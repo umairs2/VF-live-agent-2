@@ -14,7 +14,7 @@ import { RuntimeAPIContext } from '@/contexts';
 const SESSION_USER_ID_KEY = 'session:user_id';
 const SESSION_CONVERSATION_ID_KEY = 'session:conversation_id';
 
-const client = new FetchClient({ baseURL: 'http://localhost:9099' });
+const client = new FetchClient({ baseURL: 'https://funding-pips-live-agent.onrender.com' });
 
 const createTurn = <Type extends TurnType>(type: Type) => ({
   type,

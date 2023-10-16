@@ -9,5 +9,5 @@ git add -f packages/widget/dist
 cp scripts/template.html index.html
 git add index.html
 git commit -m "initial" --no-verify
-git push sindrimt pages --force
+git push origin pages --force
 git clean -fd .
